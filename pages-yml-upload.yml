@@ -1,0 +1,119 @@
+# Settings for the Pages CMS editor (pagescms.org). Defines the fill-in boxes you see when editing.
+media:
+  input: public/images
+  output: /images
+  extensions: [jpg, jpeg, png, webp, gif]
+
+content:
+  - name: home
+    label: Home page
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      - { name: hero_badge, label: "Top: small label", type: string }
+      - { name: hero_title, label: "Top: big headline", type: string, description: "Put *stars* around words to highlight them in yellow, like: Every girl has a *beyond.*" }
+      - { name: hero_text, label: "Top: paragraph", type: text }
+      - { name: hero_button_text, label: "Top: first button text", type: string }
+      - { name: hero_button2_text, label: "Top: second button text", type: string }
+      - { name: mission_statement, label: "Mission: big sentence", type: text }
+      - { name: mission_text, label: "Mission: paragraph", type: text }
+      - { name: founder_photo, label: "Founder: photo", type: image }
+      - { name: founder_photo_alt, label: "Founder: photo description (for screen readers)", type: string }
+      - { name: founder_heading, label: "Founder: heading", type: string }
+      - name: founder_paragraphs
+        label: "Founder: note paragraphs"
+        type: object
+        list: true
+        fields:
+          - { name: text, label: Paragraph, type: text }
+      - { name: founder_signoff, label: "Founder: sign-off", type: string }
+      - { name: focus_heading, label: "What we do: heading", type: string }
+      - { name: focus_intro, label: "What we do: intro sentence", type: string }
+      - name: focus_cards
+        label: "What we do: cards"
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: icon, label: Icon, type: select, options: { values: [heart, book, star, home] } }
+          - { name: color, label: "Card color", type: select, options: { values: [pink, butter, mint, white, lavender] } }
+      - { name: teaser_label, label: "Letters of Love teaser: small label", type: string }
+      - { name: teaser_heading, label: "Letters of Love teaser: heading", type: string }
+      - { name: teaser_text, label: "Letters of Love teaser: paragraph", type: text }
+      - { name: teaser_button_text, label: "Letters of Love teaser: button text", type: string }
+      - { name: teaser_photo, label: "Letters of Love teaser: photo", type: image }
+      - { name: teaser_photo_alt, label: "Letters of Love teaser: photo description", type: string }
+      - { name: why_heading, label: "Why join: heading", type: string }
+      - { name: why_text, label: "Why join: paragraph", type: text }
+      - name: why_cards
+        label: "Why join: cards"
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - { name: quote, label: "Big quote", type: string, description: "Put *stars* around the words to highlight in yellow." }
+      - { name: quote_credit, label: "Quote: who said it", type: string }
+      - { name: involved_heading, label: "Get involved: heading", type: string }
+      - name: involved_cards
+        label: "Get involved: cards"
+        type: object
+        list: true
+        fields:
+          - { name: label, label: "Small label", type: string }
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_text, label: "Button text", type: string }
+          - { name: button_link, label: "Button link", type: string, description: "Use #contact to jump to the contact section, or paste a full web address." }
+      - { name: contact_heading, label: "Contact: heading", type: string }
+      - { name: contact_text, label: "Contact: paragraph", type: text }
+      - { name: meta_description, label: "Google description (shows in search results)", type: text }
+
+  - name: letters
+    label: Letters of Love page
+    type: file
+    path: content/letters.json
+    format: json
+    fields:
+      - { name: hero_badge, label: "Top: small label", type: string }
+      - { name: hero_title, label: "Top: big headline", type: string, description: "Put *stars* around words to highlight them in yellow." }
+      - { name: hero_text, label: "Top: paragraph", type: text }
+      - { name: intro_label, label: "Intro: small label", type: string }
+      - { name: intro_heading, label: "Intro: heading", type: string }
+      - { name: intro_text, label: "Intro: paragraph", type: text }
+      - { name: gallery_heading, label: "Photos: heading", type: string }
+      - name: photos
+        label: "Photos (the first one is shown biggest)"
+        type: object
+        list: true
+        fields:
+          - { name: image, label: Photo, type: image }
+          - { name: alt, label: "Photo description (for screen readers)", type: string }
+          - { name: caption, label: Caption, type: string }
+      - { name: steps_heading, label: "Steps: heading", type: string }
+      - name: steps
+        label: "Steps (numbered automatically)"
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - { name: signup_button_text, label: "Sign-up button text", type: string }
+      - { name: bake_title, label: "Bake sale: title", type: string }
+      - { name: bake_status, label: "Bake sale: status", type: string }
+      - { name: meta_description, label: "Google description", type: text }
+
+  - name: site
+    label: Contact info and links
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: email, label: "Contact email", type: string }
+      - { name: location, label: "Based in", type: string }
+      - { name: tagline, label: "Footer line", type: string }
+      - { name: whatsapp_link, label: "WhatsApp group link", type: string }
+      - { name: join_form_link, label: "Home page 'Join our group' button link", type: string }
+      - { name: card_signup_link, label: "Letters of Love sign-up form link", type: string }
