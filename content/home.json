@@ -1,0 +1,107 @@
+{
+  "meta_description": "Beyond Her is a community of girls ages 12-18 in Orlando who lift each other up, make handmade cards for girls who are going through things, and earn volunteer hours.",
+  "hero_badge": "For girls ages 12-18",
+  "hero_title": "Every girl has a *beyond.*",
+  "hero_text": "Beyond Her is a community of girls ages 12-18 who lift each other up, make handmade cards for girls who are going through things, and earn volunteer hours along the way. We inspire girls to go beyond the limits others set for them and the doubts they carry.",
+  "hero_button_text": "Join our group",
+  "hero_button2_text": "Support our mission",
+  "mission_statement": "Empower girls through mentorship, education, leadership, and access to opportunities.",
+  "mission_text": "Beyond Her started in 2026 when Julia saw that girls today were feeling alone or lost. Today we connect girls with mentors, skills, and a community that expects more of them than the world sometimes does.",
+  "founder_photo": "/images/julia.jpg",
+  "founder_photo_alt": "Julia, founder of Beyond Her",
+  "founder_heading": "Hi, I'm Julia",
+  "founder_paragraphs": [
+    {
+      "text": "I started Beyond Her because I believe no girl should have to navigate her future feeling alone, uncertain, or without someone in her corner. I wanted to create something that reminds girls of their potential and shows them that their dreams are worth pursuing."
+    },
+    {
+      "text": "As a student myself, I understand how important it is to have encouragement, guidance, and people who believe in you. I wanted to turn that belief into something bigger: a community where girls can find mentors, discover new opportunities, develop their voices, and feel supported as they grow."
+    },
+    {
+      "text": "Every girl who joins Beyond Her deserves to feel seen, supported, and inspired to chase her dreams. I hope you find a community here that reminds you just how much you're capable of. 💗"
+    }
+  ],
+  "founder_signoff": "Julia, Founder of Beyond Her",
+  "focus_heading": "What we do",
+  "focus_intro": "Four ways Beyond Her helps girls go further.",
+  "focus_cards": [
+    {
+      "title": "Mentorship",
+      "text": "Girls connect with people who believe in them and have walked the road ahead.",
+      "icon": "heart",
+      "color": "pink"
+    },
+    {
+      "title": "Education",
+      "text": "Workshops and resources that help girls learn new skills and plan their future.",
+      "icon": "book",
+      "color": "butter"
+    },
+    {
+      "title": "Leadership",
+      "text": "Chances to find their voice, take initiative, and lift up other girls.",
+      "icon": "star",
+      "color": "mint"
+    },
+    {
+      "title": "Opportunities",
+      "text": "Access to experiences and connections that make bigger dreams possible.",
+      "icon": "home",
+      "color": "white"
+    }
+  ],
+  "teaser_label": "Letters of Love",
+  "teaser_heading": "Giving back, one card at a time",
+  "teaser_text": "Our girls make handmade cards for girls who are going through things, and we host events like our upcoming bake sale.",
+  "teaser_button_text": "See Letters of Love",
+  "teaser_photo": "/images/handmade-card.jpg",
+  "teaser_photo_alt": "A girl coloring yellow suns on a handmade card with markers",
+  "why_heading": "Do something that matters, with girls who get you",
+  "why_text": "No experience needed. Come as you are, write a card, make a friend, and earn volunteer hours while you're at it.",
+  "why_cards": [
+    {
+      "title": "Make real friends",
+      "text": "Meet girls your age who know what it's like to feel alone, and who show up for each other."
+    },
+    {
+      "title": "Brighten someone's day",
+      "text": "A few kind words from you can make another girl feel cared for."
+    },
+    {
+      "title": "Earn volunteer hours",
+      "text": "Your time counts. Earn volunteer hours for the work you do with Beyond Her."
+    },
+    {
+      "title": "Find your voice",
+      "text": "Build confidence and leadership skills, and take the lead when you're ready."
+    }
+  ],
+  "quote": "*A real community* that *loves me for me.*",
+  "quote_credit": "A Beyond Her member",
+  "involved_heading": "Go beyond with us",
+  "involved_cards": [
+    {
+      "label": "For girls",
+      "title": "Join our group",
+      "text": "Girls 12-18 can join our WhatsApp group, which shares words of encouragement every week. You also earn volunteer hours for the work you do with us.",
+      "button_text": "Join on WhatsApp",
+      "button_link": "https://chat.whatsapp.com/IQUpZHhTwCA3EQKxmdYUmT?mode=gi_t"
+    },
+    {
+      "label": "For volunteers",
+      "title": "Mentor or speak",
+      "text": "Share your story and your skills for a few hours a month. No experience with mentoring needed.",
+      "button_text": "Volunteer",
+      "button_link": "#contact"
+    },
+    {
+      "label": "For supporters",
+      "title": "Fund a girl's next step",
+      "text": "Your support helps fund mentorship programs, educational workshops, and resources that give girls more opportunities to succeed.",
+      "button_text": "Donate",
+      "button_link": "#contact"
+    }
+  ],
+  "contact_heading": "Say hello",
+  "contact_text": "Questions, ideas, or want to volunteer or donate? Write to Julia and she will answer."
+}

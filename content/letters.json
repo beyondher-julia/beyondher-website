@@ -1,0 +1,40 @@
+{
+  "meta_description": "Letters of Love is how our girls give back: handmade cards for girls going through things, and community events like our bake sale.",
+  "hero_badge": "Giving back",
+  "hero_title": "Letters of *Love*",
+  "hero_text": "This is how our girls give back to the community. We make handmade cards for girls who are going through things, and we host events to bring people together for good.",
+  "intro_label": "Letters of love",
+  "intro_heading": "Handmade cards for girls going through things",
+  "intro_text": "Our girls make handmade cards for other girls who are going through things. A few warm words and a drawing can make someone feel less alone, and that is something we know a lot about.",
+  "gallery_heading": "Card-making in action",
+  "photos": [
+    {
+      "image": "/images/handmade-cards-all.jpg",
+      "alt": "Nine handmade cards spread on a table: a smiling sun, planets, a ghost, a heart, a pickle, a cereal spoon, a carrot, a rock and peaches",
+      "caption": "Our latest batch: sunshine, carrots, peaches and more, ready to deliver"
+    },
+    {
+      "image": "/images/handmade-card.jpg",
+      "alt": "A girl coloring yellow suns on a handmade card with markers",
+      "caption": "Coloring suns on a handmade card"
+    }
+  ],
+  "steps_heading": "How we make the cards",
+  "steps": [
+    {
+      "title": "Gather",
+      "text": "Girls get together, in person or online, with paper, markers, and stickers."
+    },
+    {
+      "title": "Make",
+      "text": "Each girl makes a card by hand. A drawing, a favorite quote, or a wish for a better day all work. We sign with first names only."
+    },
+    {
+      "title": "Deliver",
+      "text": "We collect the cards and pass them on to girls who could use a little encouragement."
+    }
+  ],
+  "signup_button_text": "Sign up to make a card",
+  "bake_title": "The Beyond Her Bake Sale",
+  "bake_status": "Coming soon"
+}
